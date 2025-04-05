@@ -87,7 +87,7 @@ const sendTransaction = async () => {
                     computeBudgetProgram.getSetLoadedAccountsDataSizeLimitInstruction({ accountDataSizeLimit: 500 }),
                     transferSolIx,
                     {
-                        programAddress: solanaWeb3.address("58bxVWJWz4rWAQo9p8DipUtCd4yHfxepiarWzU5CVZC"),
+                        programAddress: solanaWeb3.address("<PUBKEY>"),
                         accounts: [
                             {
                                 address: newAccountPubkey,
