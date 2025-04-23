@@ -1,4 +1,4 @@
-import * as solanaWeb3 from "@solana/web3.js";
+import * as solanaWeb3 from "@solana/kit";
 import { SolanaRpcApiDevnet } from "@solana/rpc";
 
 import * as systemProgram from "@solana-program/system";
